@@ -15,6 +15,9 @@ class Option extends StatelessWidget {
         child: TextButton(
           child: Text(
             optionText,
+            style: TextStyle(
+              color: Colors.white,
+            ),
             textAlign: TextAlign.center,
             textScaleFactor: 2,
           ),
