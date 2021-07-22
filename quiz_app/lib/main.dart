@@ -86,6 +86,9 @@ class MyAppState extends State<MyApp> {
         ),
         bottomNavigationBar: Text(
           "Score : $score" + "/10",
+          style: TextStyle(
+              color: Colors.white,
+          ),
           textAlign: TextAlign.center,
         ),
       ),
